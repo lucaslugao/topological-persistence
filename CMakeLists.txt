@@ -3,7 +3,7 @@ PROJECT(TD5)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11  -O3") # -ggdb
 
-ADD_EXECUTABLE(TD5 main.cpp)
+ADD_EXECUTABLE(TD5 src/main.cpp)
 
 add_custom_target(run
     COMMAND TD5
